@@ -1,0 +1,34 @@
+{
+    "ownerId": "aab27eab50680855",
+    "machineId": "03883728f13cc988273c145e8fe24737",
+    "nodes": [
+        {
+            "_id": "7a448b0f7fb1b6aa",
+            "vram": 24,
+            "cuda_device": "0",
+            "gpus": 1,
+            "mode": "image"
+        },
+        {
+            "_id": "b5b0dff2b6d656a9",
+            "vram": 24,
+            "cuda_device": "1",
+            "gpus": 1,
+            "mode": "text"
+        },
+        {
+            "_id": "f266ac84545550aa",
+            "vram": 24,
+            "cuda_device": "2",
+            "gpus": 1,
+            "mode": "image"
+        },
+        {
+            "_id": "1b053f0647e4745a",
+            "vram": 24,
+            "cuda_device": "3",
+            "gpus": 1,
+            "mode": "text"
+        }
+    ]
+}
