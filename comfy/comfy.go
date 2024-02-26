@@ -51,7 +51,7 @@ func Generate(prompt string, seed int64, jobid string, port string) error {
 	data.Num9.Inputs.FilenamePrefix = jobid
 	// log.Debug(jobid)
 	log.Debugf("http://localhost:8188/view?filename=%s_00001_.png", jobid)
-	time.Sleep(time.Second * 5)
+	//time.Sleep(time.Second * 5)
 	fullData := fullPayload{ClientID: clientId, Prompt: data}
 
 	b, err := json.Marshal(fullData)
